@@ -1,0 +1,204 @@
+body{
+  height: 720px;
+  background-image: linear-gradient(#7864cf, #FFB740);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:auto;
+    margin-top: 132px;
+    place-items: center;
+    height: 420px;
+
+}
+
+input {
+  width: 75%;
+  
+}
+
+input[type=text], input[type=email] ,select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+
+backface-visibility: hidden;
+  
+}
+#msg {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+@-moz-document url-prefix(){
+textarea{
+  height:4em;
+}
+}
+.head{
+    text-align: center;
+}
+
+.left{
+  display: grid;
+  grid-gap:3px;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align:justify;
+  padding: 70px 0; 
+  
+}
+
+.right{
+  width: 300px;
+}
+
+.navbar-brand{
+  font-family: 'Style Script', cursive;
+  font-size: 1.5em;
+}
+
+.nav-item{
+  color: #FFB740;
+  font-size: 1.2em;
+}
+
+h2{
+  font-family: 'Staatliches', cursive;
+}
+#mail,#add,#mob{
+  font-family: 'Questrial', sans-serif;
+
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+.social {
+  justify-content:left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 25px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #60a540;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #a54040; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e68b22;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+      border-color: #0094BC;
+}
+
+
+
+.btn {
+  background: #64C9CF;
+  background-image: -webkit-linear-gradient(top, #64C9CF, #FFB740);
+  background-image: -moz-linear-gradient(top, #64C9CF, #FFB740);
+  background-image: -ms-linear-gradient(top, #64C9CF, #FFB740);
+  background-image: -o-linear-gradient(top, #64C9CF, #FFB740);
+  background-image: linear-gradient(to bottom, #64C9CF, #FFB740);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
